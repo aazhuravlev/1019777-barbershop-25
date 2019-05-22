@@ -124,11 +124,15 @@ a {
 
 .page-title {
   font-size: 30px;
-  line-height: 40px;
+  line-height: 42px;
 }
 
 .breadcrumbs {
   list-style: none;
+}
+
+.breadcrumbs a {
+  color: #000000;
 }
 
 .breadcrumbs a:hover,
@@ -154,13 +158,14 @@ a {
   line-height: 18px;
 }
 
-.filter-input:hover+label,
-.filter-input:focus+label {
+.filter-input:hover + label,
+.filter-input:focus + label {
   color: #663d15;
 }
 
 .filter-input:disabled + label {
   color: #000000;
+
   opacity: 0.5;
 }
 
@@ -185,6 +190,7 @@ a {
   font-size: 14px;
   line-height: 18px;
 }
+
 .catalog-category {
   text-transform: none;
 }
